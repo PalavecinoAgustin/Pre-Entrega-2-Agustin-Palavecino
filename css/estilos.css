@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&display=swap');
+
+html{
+    font-size: 62,5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.containerGrid{
+    display: grid;
+    grid-template-rows: auto;
+
+
+}
+
+
+
+
+
+
+
+.colorNaranja{
+    background-color:#f8c583c2;
+
+}
+
+
+
+.header{
+    position: sticky;
+    z-index: 10;
+    top: 0%;
+    display: flex-start;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-right: 20%;
+}
+
+
+.navBar{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.enlacesEncabezado{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1%;
+    margin:1%;
+    color: black;
+}
+
+.enlacesEncabezado:hover{
+    color:#f9e4c9
+}
+
+
+.blockText{
+    float: left;
+    width: 65%;
+
+
+}
+
+
+
+
+.sectionPadding{
+    display: block;
+    padding: 2%;
+}
+
+
+
+
+
+.mainBackgroundColor{
+    background-color:rgb(255, 235, 205);
+          
+}
+
+.mainTextCenter{
+    text-align: center;
+}
+
+
+
+
+.footerImg{
+    width: 40px;
+}
+
+.pieDePagina{
+    text-align: center;
+    
+}
+
+.h1{
+    font-size: 4rem;
+    font-family: 'Kaushan Script', 'cursive';
+
+}
+.h2{
+    font-size: 3rem;
+    font-family: 'Kaushan Script', 'cursive';
+}
+.h3{
+    font-size: 2rem;
+    font-family: 'Kaushan Script', 'cursive';
+}
+
+.parrafos{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.sobreMiImg{
+    display: flex;
+    margin-top: 5%;
+    width: 25%;
+    height: 25%;
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+ 
+
+
+}
+
+.sobreMiImg2{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 25%;
+    height: 60%;
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+.galeriaImg{
+    width:450px;
+    height:450px;
+    object-fit: cover;
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+}
+
+.inicioImg{
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+
+    width: 65%;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.sectionPadding5pct{
+    padding-left: 2%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.sectionPadding2{
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-bottom:10%;
+}
+
+.clasesImg{
+    display: flex;
+    float: right;
+    width: 25%;
+    height: 30%;
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+
+    margin-right: 5%;
+    margin-top: 3%;
+
+}
+
+.clasesImg2{
+    display: flex;
+    float: right;
+    width: 25%;
+    box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+    margin-right: 5%;    
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.contactoPag{
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+    padding-top: 5%;
+
+
+
+}
+
+.displayFlex{
+    display: flex;
+
+}
+
+.paddingBottom{
+    padding-bottom: 2%;
+}
+.paddingLeft{
+    padding-left: 2%;
+}
