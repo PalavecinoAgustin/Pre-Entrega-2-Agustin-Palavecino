@@ -13,12 +13,7 @@ html{
 
 
 }
-.containerGrid{
-    display: grid;
-    grid-template-rows: auto;
 
-
-}
 
 
 .colorNaranja{
@@ -26,7 +21,12 @@ html{
 
 }
 
-
+#fontSizeNav{
+    font-size: 2rem;
+    padding: 1%;
+    margin:1%;
+    color: black;
+}
 
 .header{
     position: sticky;
@@ -218,12 +218,15 @@ html{
 
 .contactoPag{
     display: flex;
-    height: 80vh;
+    height: 73vh;
     justify-content: space-evenly;
     padding-top: 5%;
 
+}
 
-
+.contactoMapa{
+    width:600px; 
+    height:450px; 
 }
 
 .displayFlex{
@@ -241,6 +244,15 @@ html{
     padding-top: 5%;
 }
 
+.paddingTopIndex{
+    padding-top: 2%;
+}
+
+.paddingBottomIndex{
+    padding-bottom: 2%;
+}
+
+
 @media screen and (max-width:600px){
     .videoInicio{
         height: auto;
@@ -255,10 +267,19 @@ html{
         font-size: 1rem;
         line-height: 1.5rem;
     }
+
+    .paddingBottom{
+        padding-bottom: 2%;
+    }
+
     .paddingTop{
+        padding-top: 2%;
+    }
+
+    .paddingTopIndex{
         padding-top: 10%;
     }
-    .paddingBottom{
+    .paddingBottomIndex{
         padding-bottom: 5%;
     }
     .h1Size{
@@ -294,6 +315,44 @@ html{
         height: 60%;
         box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
     
+    }
+    .contactoPag{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .contactoMapa{
+        height:250px;
+        width: 300px;
+    }
+
+    .clasesImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 50%;
+        box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+        margin-top: 3%;
+    
+    }
+    
+    .clasesImg2{
+        display: flex;
+        width: auto;
+        height: 50%;
+        box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58); 
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+    .clasesImg3{
+        display: flex;
+        width: auto;
+        height: 50%;
+        box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58); 
+        margin-bottom: 5%;
+        margin-top: 10%;
     }
     
 }
