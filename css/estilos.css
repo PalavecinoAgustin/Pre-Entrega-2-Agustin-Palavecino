@@ -151,10 +151,15 @@ html{
     justify-content: space-evenly;
 }
 .galeriaImg{
-    width:450px;
-    height:450px;
+    width:420px;
+    height:420px;
+    transition: all 300ms;
     object-fit: cover;
     box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+}
+
+.galeriaImg:hover{
+    transform: scale(1.15);
 }
 
 .inicioImg{
