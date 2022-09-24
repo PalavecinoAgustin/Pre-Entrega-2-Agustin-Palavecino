@@ -165,6 +165,10 @@ html{
 
     width: 65%;
 }
+.videoInicio{
+    height: 700px;
+    width: 1200px;
+}
 
 .inlineBlock{
     display: inline-block;
@@ -234,5 +238,62 @@ html{
     padding-left: 2%;
 }
 .paddingTop{
-    padding-top: 1%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width:600px){
+    .videoInicio{
+        height: auto;
+        width: 90%;
+        
+    }
+    .inicioImg{
+        height: auto;
+        width: 90%;
+    }
+    .parrafos{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .paddingTop{
+        padding-top: 10%;
+    }
+    .paddingBottom{
+        padding-bottom: 5%;
+    }
+    .h1Size{
+        font-size: 3rem;
+    }
+    .h2Size{
+        font-size: 2rem;
+    }
+    .blockText{
+        width: 100%;
+    }
+    .displayFlex{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .sobreMiImg{
+        display: flex;
+        margin-top: 5%;
+        width: auto;
+        height: 80%;
+        box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+     
+    
+    
+    }
+    
+    .sobreMiImg2{
+        display: flex;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        width: auto;
+        height: 60%;
+        box-shadow: 1px 7px 22px 9px rgba(0,0,0,0.58);
+    
+    }
+    
 }
