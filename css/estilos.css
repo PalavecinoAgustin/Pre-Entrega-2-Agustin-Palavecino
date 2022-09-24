@@ -21,11 +21,6 @@ html{
 }
 
 
-
-
-
-
-
 .colorNaranja{
     background-color:#f8c583c2;
 
@@ -106,19 +101,22 @@ html{
 
 .pieDePagina{
     text-align: center;
+    padding-left:30%;
+    padding-top: 1%;
     
 }
 
-.h1{
+.h1Size{
     font-size: 4rem;
     font-family: 'Kaushan Script', 'cursive';
 
+
 }
-.h2{
+.h2Size{
     font-size: 3rem;
     font-family: 'Kaushan Script', 'cursive';
 }
-.h3{
+.h3Size{
     font-size: 2rem;
     font-family: 'Kaushan Script', 'cursive';
 }
@@ -231,4 +229,7 @@ html{
 }
 .paddingLeft{
     padding-left: 2%;
+}
+.paddingTop{
+    padding-top: 1%;
 }

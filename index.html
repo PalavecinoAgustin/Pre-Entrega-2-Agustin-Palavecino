@@ -8,11 +8,12 @@
     <link rel="shortcut icon" href="./html/favicon.ico">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
 </head>
 <body>
-    <div class="containerGrid">
-        <header class="colorNaranja header">
+
+        <header class="container-fluid colorNaranja header">
 
             <nav  class="navBar">
                 <a class="logo" href="./index.html">
@@ -29,23 +30,25 @@
 
         </header>
 
-        <main class="mainBackgroundColor mainTextCenter">
+        <main class="container-fluid mainBackgroundColor mainTextCenter">
             <section class="backgroundImg">
-                <h1 class="h1 paddingBottom">Yapan</h1>
+                <h1 class="h1Size paddingBottom">Yapan</h1>
                 <img class="inicioImg" src="./imagenes/filetering.jpeg">
                 <p class="parrafos sectionPadding">Bienvenidos a la página de Yapan, aca van a encontrar informacion sobre mi, mis trabajos, clases y algunas cosas mas.</p>
             </section>
 
             <section>
-                <h2 class="h2 paddingBottom">Yapan Letras</h2>
+                <h2 class="h2Size paddingBottom">Yapan Letras</h2>
                 <iframe class="paddingBottom" width="1200" height="700" src="https://www.youtube.com/embed/2XNCM2_t374" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowflilscreen></iframe>
             </section>
         
         </main>
 
-        <footer class="colorNaranja">
-            <h3 class=" pieDePagina">Todos los derechos reservados</h3>
-            <h3>Redes sociales</h3>
+        <footer class=" container-fluid colorNaranja">
+            <div class="displayFlex">
+                <h3 class="paddingTop">Redes sociales</h3>
+                <h3 class=" pieDePagina">Todos los derechos reservados</h3>
+            </div>
             <div>
                 <a href="https://www.instagram.com/yapan.letras/?hl=es-la" target="_blank"> 
                     <img class="footerImg" src="./imagenes/ig.png" alt="Seguinos en Instagram">
@@ -62,6 +65,8 @@
             </div>
 
         </footer>
-    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
